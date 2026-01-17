@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* تعريف المتغير ليعمل مع الكلاس يدوياً في الإصدار الرابع */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* إضافة انتقال ناعم جداً للألوان لإظهار احترافيتك في الـ UX */
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  /* التأكد من أن الخلفية والنصوص تتغير في المكونات الأساسية */
+  body {
+    @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100;
+  }
+}
