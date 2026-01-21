@@ -120,8 +120,8 @@ function App() {
           <div className="flex justify-center flex-wrap gap-8 mb-12 text-4xl text-gray-400">
             <a href="https://linkedin.com/in/amgedsayed" target="_blank" className="hover:text-blue-400 transition transform hover:scale-110"><i className="fab fa-linkedin"></i></a>
             <a href="https://github.com/AmgdSMousa" target="_blank" className="hover:text-white transition transform hover:scale-110"><i className="fab fa-github"></i></a>
-            <a href="https://facebook.com/your-profile" target="_blank" className="hover:text-blue-600 transition transform hover:scale-110"><i className="fab fa-facebook"></i></a>
-            <a href="https://instagram.com/your-profile" target="_blank" className="hover:text-pink-500 transition transform hover:scale-110"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/am8ed" target="_blank" className="hover:text-blue-600 transition transform hover:scale-110"><i className="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/am8ed_" target="_blank" className="hover:text-pink-500 transition transform hover:scale-110"><i className="fab fa-instagram"></i></a>
           </div>
           <p className="text-gray-500 font-medium italic">© 2026 Amged Sayed. Marketing Specialist & Web Developer.</p>
         </div>
