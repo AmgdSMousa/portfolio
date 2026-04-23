@@ -1,3 +1,4 @@
 /
   Link: </.well-known/api-catalog>; rel="api-catalog"
   Link: <https://github.com/AmgdSMousa/portfolio>; rel="describedby"
+  Vary: Accept
