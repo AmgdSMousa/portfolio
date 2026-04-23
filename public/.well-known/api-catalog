@@ -1,0 +1,13 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://amgedsayed.my/.well-known/api-catalog",
+      "service-doc": [
+        {
+          "href": "https://github.com/AmgdSMousa/portfolio",
+          "type": "text/html"
+        }
+      ]
+    }
+  ]
+}
