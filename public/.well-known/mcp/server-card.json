@@ -1,0 +1,12 @@
+{
+  "serverInfo": {
+    "name": "Amged Portfolio Agent Service",
+    "version": "0.1.0"
+  },
+  "endpoint": "https://amgedsayed.my/mcp",
+  "capabilities": {
+    "resources": [],
+    "tools": [],
+    "prompts": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "portfolio-interaction",
+      "type": "skill-md",
+      "description": "Extract professional info from the portfolio",
+      "url": "https://amgedsayed.my/skills/portfolio.SKILL.md",
+      "digest": "sha256:E6FA0F75A0AED1B2D6DFA39B700DF7745A1D07D33F16115FE9F0B345377F8952"
+    }
+  ]
+}
