@@ -1,0 +1,7 @@
+# Amged Sayed | Marketing & Dev Portfolio
+
+> Innovative Marketing Specialist and Full-Stack Developer leveraging psychology-based strategies and technical execution.
+
+## Information
+- [About](https://amgedsayed.my/index.md): Summary of expertise and journey.
+- [Projects](https://github.com/AmgdSMousa/portfolio): Source code and project details.
