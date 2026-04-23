@@ -24,6 +24,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="api-catalog" href="/.well-known/api-catalog">
     <link rel="describedby" href="https://github.com/AmgdSMousa/portfolio">
+    <script>
+      (function() {
+        if (navigator.modelContext && navigator.modelContext.registerTool) {
+          navigator.modelContext.registerTool({
+            name: 'get_portfolio_info',
+            description: 'Get details about Amged Sayed\'s professional context, skills, and experience.',
+            inputSchema: { type: 'object', properties: {} },
+            execute: async () => ({
+              content: [{ type: 'text', text: 'Amged Sayed is an Innovative Marketing Specialist and Full-Stack Developer leveraging psychology-based strategies and technical execution (PERN stack).' }]
+            })
+          });
+          console.log('WebMCP tools registered.');
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

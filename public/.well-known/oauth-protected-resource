@@ -1,0 +1,5 @@
+{
+  "resource": "https://amgedsayed.my/",
+  "authorization_servers": ["https://amgedsayed.my/"],
+  "scopes_supported": ["read", "public"]
+}

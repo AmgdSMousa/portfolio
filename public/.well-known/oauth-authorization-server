@@ -1,0 +1,9 @@
+{
+  "issuer": "https://amgedsayed.my/",
+  "authorization_endpoint": "https://amgedsayed.my/oauth/authorize",
+  "token_endpoint": "https://amgedsayed.my/oauth/token",
+  "jwks_uri": "https://amgedsayed.my/.well-known/jwks.json",
+  "response_types_supported": ["code"],
+  "subject_types_supported": ["public"],
+  "id_token_signing_alg_values_supported": ["RS256"]
+}
