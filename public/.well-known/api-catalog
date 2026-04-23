@@ -6,6 +6,10 @@
         {
           "href": "https://github.com/AmgdSMousa/portfolio",
           "type": "text/html"
+        },
+        {
+          "href": "https://amgedsayed.my/index.md",
+          "type": "text/markdown"
         }
       ]
     }
