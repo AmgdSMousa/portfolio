@@ -94,6 +94,19 @@ function App() {
 
   const projects = [
     {
+      id: '3atlan',
+      title: lang === 'en' ? '3atlan Roadside Assistance Platform' : 'منصة عطلان لخدمات الإنقاذ والمساعدة على الطريق',
+      category: 'web',
+      description: lang === 'en'
+        ? 'Comprehensive React & Firebase web application for real-time roadside assistance, geolocation mapping, and emergency driver support.'
+        : 'منصة ويب متكاملة بـ React و Firebase لتقديم خدمات المساعدة والإنقاذ على الطريق، مع الخرائط التفاعلية وتتبع الموقع.',
+      tags: ['React.js', 'Firebase', 'Leaflet Maps', 'Real-time API', 'PWA'],
+      icon: <Globe className="w-6 h-6 text-amber-400" />,
+      featured: true,
+      github: 'https://github.com/AmgdSMousa/3atlan',
+      link: 'https://3atlan.am8ed.site'
+    },
+    {
       id: 'wa-sender',
       title: lang === 'en' ? 'WhatsApp Automation & Bulk Sender' : 'أداة الإرسال التلقائي للواتساب',
       category: 'web',
