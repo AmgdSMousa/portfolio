@@ -248,8 +248,8 @@ function App() {
             Explore Projects
           </a>
           <a
-            href="/Amged_Sayed_CV.pdf"
-            download
+            href="/CV.pdf"
+            download="Amged_Sayed_CV.pdf"
             className={`flex items-center gap-2 px-7 py-3.5 rounded-xl font-bold border transition shadow-sm hover:scale-105 ${darkMode ? 'bg-gray-900 border-gray-700 text-gray-200 hover:bg-gray-800' : 'bg-white border-slate-300 text-slate-800 hover:bg-slate-100'}`}
           >
             <FileText className="w-5 h-5 text-blue-500" />
