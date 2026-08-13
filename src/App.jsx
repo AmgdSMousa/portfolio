@@ -300,6 +300,25 @@ function App() {
       {/* Hero Section */}
       <section className="relative pt-36 pb-20 px-6 max-w-7xl mx-auto flex flex-col items-center text-center z-10">
         
+        {/* Profile Avatar Frame */}
+        <div className="relative mb-8 group">
+          <div className="absolute -inset-2 rounded-full bg-gradient-to-r from-blue-600 via-cyan-400 to-indigo-600 blur-lg opacity-75 group-hover:opacity-100 transition duration-500 group-hover:scale-105 animate-pulse" />
+          <div className={`relative w-36 h-36 sm:w-44 sm:h-44 rounded-full p-1.5 border-2 border-cyan-400/50 shadow-2xl shadow-blue-500/30 ${darkMode ? 'bg-gray-950' : 'bg-white'}`}>
+            <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-b from-blue-900/40 to-gray-900">
+              <img
+                src="/amged-sayed.png"
+                alt="Amged Sayed"
+                className="w-full h-full object-cover object-top transform group-hover:scale-105 transition duration-500 drop-shadow-md"
+              />
+            </div>
+          </div>
+          {/* Status Online Dot */}
+          <span className="absolute bottom-2 right-3 flex h-5 w-5">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-5 w-5 bg-emerald-500 border-2 border-gray-950" title="Available for Work"></span>
+          </span>
+        </div>
+
         {/* Status Badge */}
         <div className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold mb-8 border backdrop-blur-md ${darkMode ? 'bg-blue-950/50 border-blue-800/50 text-blue-300' : 'bg-blue-50 border-blue-200 text-blue-700'}`}>
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
