@@ -113,10 +113,11 @@ function App() {
       description: lang === 'en'
         ? 'Automated WhatsApp messaging & dispatch tool engineered in TypeScript. Features batch message dispatching, media attachments, and automated client notification workflows.'
         : 'أداة أتمتة إرسال رسائل الواتساب الجماعية مبنية بـ TypeScript. تتميز بمعالجة الدفعات المباشرة وإرفاق الوسائط وإرسال الإشعارات التلقائية للعملاء.',
-      tags: ['TypeScript', 'Node.js', 'WhatsApp API', 'Automation'],
+      tags: ['TypeScript', 'Node.js', 'WhatsApp API', 'Automation', 'Prisma'],
       icon: <MessageSquare className="w-6 h-6 text-emerald-400" />,
       featured: true,
-      github: 'https://github.com/AmgdSMousa/wa-sender'
+      github: 'https://github.com/AmgdSMousa/wa-sender',
+      link: 'https://wa-sender.am8ed.site'
     },
     {
       id: 'phonescanner',
