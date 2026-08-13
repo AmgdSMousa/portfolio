@@ -604,8 +604,16 @@ function App() {
             >
               <div>
                 <div className="flex justify-between items-start mb-6">
-                  <div className="p-3 rounded-2xl bg-blue-600/10 shrink-0">
-                    {project.icon}
+                  <div className="flex items-center gap-3">
+                    <div className="p-3 rounded-2xl bg-blue-600/10 shrink-0">
+                      {project.icon}
+                    </div>
+                    {project.link && project.link.includes('am8ed.site') && (
+                      <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-extrabold bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 animate-pulse">
+                        <span className="w-2 h-2 rounded-full bg-cyan-400"></span>
+                        <span>{lang === 'en' ? 'Live Subdomain' : 'ساب دومين مباشر'}</span>
+                      </span>
+                    )}
                   </div>
 
                   <div className="flex gap-2">
@@ -625,10 +633,17 @@ function App() {
                         href={project.link}
                         target="_blank"
                         rel="noreferrer"
-                        className={`p-2 rounded-xl border transition ${darkMode ? 'bg-gray-900 border-gray-800 hover:text-cyan-400' : 'bg-slate-100 border-slate-200 hover:text-cyan-600'}`}
+                        className={`p-2.5 rounded-xl border transition flex items-center gap-1.5 text-xs font-bold ${
+                          project.link.includes('am8ed.site')
+                            ? 'bg-gradient-to-r from-blue-600 to-cyan-500 text-white border-transparent shadow-lg shadow-cyan-500/20 hover:scale-105'
+                            : darkMode
+                            ? 'bg-gray-900 border-gray-800 hover:text-cyan-400 text-gray-300'
+                            : 'bg-slate-100 border-slate-200 hover:text-cyan-600 text-slate-700'
+                        }`}
                         title="Live Site"
                       >
-                        <ExternalLink className="w-4 h-4" />
+                        <span>{lang === 'en' ? 'Visit App' : 'زيارة التطبيق'}</span>
+                        <ExternalLink className="w-3.5 h-3.5" />
                       </a>
                     )}
                   </div>
