@@ -1,0 +1,21 @@
+# Amged Sayed - Full-Stack Developer & Digital Marketer
+> Technical portfolio, projects, resume, and contact information.
+
+## Core Specializations
+- Full-Stack Web Development (React 19, Node.js, TypeScript, PostgreSQL)
+- Linux Cloud Infrastructure & VPS Systems (GCP, Docker, Reverse Tunnels)
+- Consumer Psychology & Data-Driven Marketing Strategy
+
+## Key Live Projects
+- 3atlan Roadside Assistance: https://3atlan.am8ed.site
+- WA-Sender WhatsApp Dispatcher: https://wa-sender.am8ed.site
+- Fursat Safar Travel Platform: https://www.fursatsafar.com
+
+## Official Resume / CV
+- Download Resume PDF: https://am8ed.site/CV.pdf
+
+## Contact Information
+- Email: amgedsayed2001@gmail.com
+- GitHub: https://github.com/AmgdSMousa
+- LinkedIn: https://linkedin.com/in/amged-sayed
+- WhatsApp: https://wa.me/201019688320

@@ -9,16 +9,23 @@
     <meta name="keywords" content="Amged Sayed, Full-Stack Developer, React, Node.js, PostgreSQL, Docker, Linux, GCP, Digital Marketing, SEO, Psychology" />
     <meta name="author" content="Amged Sayed" />
 
+    <!-- Preload Hero Image for instant LCP -->
+    <link rel="preload" href="/amged-sayed-opt.webp" as="image" type="image/webp" fetchpriority="high" />
+
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Amged Sayed | Full-Stack Developer & Digital Marketer" />
     <meta property="og:description" content="Building scalable web apps, managing cloud infrastructure, and executing psychology-driven marketing strategies." />
 
-    <!-- Google Fonts: Plus Jakarta Sans & Fira Code -->
+    <!-- Google Fonts: Non-blocking async load -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-DgiJBAjP.js"></script>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+    </noscript>
+    <script type="module" crossorigin src="/assets/index-C2i7S9zw.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-C1SjUDFz.css">
   </head>
   <body class="bg-gray-950 text-gray-100 antialiased selection:bg-blue-600 selection:text-white transition-colors duration-300">

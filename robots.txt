@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://am8ed.site/sitemap.xml
