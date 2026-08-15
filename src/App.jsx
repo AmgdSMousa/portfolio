@@ -407,26 +407,26 @@ function App() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-4xl text-left rtl:text-right">
           <div className={`p-5 rounded-2xl border transition-all ${darkMode ? 'glass-card border-gray-800/80 hover:border-blue-500/50' : 'bg-white border-slate-200 shadow-sm hover:border-blue-400'}`}>
             <Code className="w-7 h-7 text-blue-500 mb-3" />
-            <h3 className="font-bold text-base mb-1">{lang === 'en' ? 'Full-Stack Dev' : 'تطوير الفول ستاك'}</h3>
-            <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-slate-500'}`}>React, Node.js, PostgreSQL</p>
+            <div className="font-bold text-base mb-1">{lang === 'en' ? 'Full-Stack Dev' : 'تطوير الفول ستاك'}</div>
+            <p className={`text-xs ${darkMode ? 'text-gray-300' : 'text-slate-600'}`}>React, Node.js, PostgreSQL</p>
           </div>
 
           <div className={`p-5 rounded-2xl border transition-all ${darkMode ? 'glass-card border-gray-800/80 hover:border-indigo-500/50' : 'bg-white border-slate-200 shadow-sm hover:border-indigo-400'}`}>
             <Server className="w-7 h-7 text-indigo-500 mb-3" />
-            <h3 className="font-bold text-base mb-1">{lang === 'en' ? 'Cloud & Sysadmin' : 'السيرفرات والسحابية'}</h3>
-            <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-slate-500'}`}>GCP, Docker, Linux/SSH</p>
+            <div className="font-bold text-base mb-1">{lang === 'en' ? 'Cloud & Sysadmin' : 'السيرفرات والسحابية'}</div>
+            <p className={`text-xs ${darkMode ? 'text-gray-300' : 'text-slate-600'}`}>GCP, Docker, Linux/SSH</p>
           </div>
 
           <div className={`p-5 rounded-2xl border transition-all ${darkMode ? 'glass-card border-gray-800/80 hover:border-cyan-500/50' : 'bg-white border-slate-200 shadow-sm hover:border-cyan-400'}`}>
             <Globe className="w-7 h-7 text-cyan-500 mb-3" />
-            <h3 className="font-bold text-base mb-1">{lang === 'en' ? 'Digital Marketing' : 'التسويق الرقمي'}</h3>
-            <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-slate-500'}`}>SEO, Meta Ads, Photoshop</p>
+            <div className="font-bold text-base mb-1">{lang === 'en' ? 'Digital Marketing' : 'التسويق الرقمي'}</div>
+            <p className={`text-xs ${darkMode ? 'text-gray-300' : 'text-slate-600'}`}>SEO, Meta Ads, Photoshop</p>
           </div>
 
           <div className={`p-5 rounded-2xl border transition-all ${darkMode ? 'glass-card border-gray-800/80 hover:border-emerald-500/50' : 'bg-white border-slate-200 shadow-sm hover:border-emerald-400'}`}>
             <GraduationCap className="w-7 h-7 text-emerald-500 mb-3" />
-            <h3 className="font-bold text-base mb-1">{lang === 'en' ? 'Psychology B.A.' : 'بكالوريوس علم النفس'}</h3>
-            <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-slate-500'}`}>User Behavior & Strategy</p>
+            <div className="font-bold text-base mb-1">{lang === 'en' ? 'Psychology B.A.' : 'بكالوريوس علم النفس'}</div>
+            <p className={`text-xs ${darkMode ? 'text-gray-300' : 'text-slate-600'}`}>User Behavior & Strategy</p>
           </div>
         </div>
 
@@ -622,8 +622,10 @@ function App() {
                       {project.icon}
                     </div>
                     {project.link && project.link.includes('am8ed.site') && (
-                      <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-extrabold bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 animate-pulse">
-                        <span className="w-2 h-2 rounded-full bg-cyan-400"></span>
+                      <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-extrabold border ${
+                        darkMode ? 'bg-cyan-950/90 text-cyan-200 border-cyan-500/50' : 'bg-cyan-100 text-cyan-900 border-cyan-300'
+                      }`}>
+                        <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
                         <span>{lang === 'en' ? 'Live Subdomain' : 'ساب دومين مباشر'}</span>
                       </span>
                     )}
@@ -971,7 +973,7 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className={`py-10 px-6 border-t z-10 relative text-sm ${darkMode ? 'border-gray-900 text-gray-500' : 'border-slate-200 text-slate-500'}`}>
+      <footer className={`py-10 px-6 border-t z-10 relative text-sm font-medium ${darkMode ? 'border-gray-900 text-gray-300' : 'border-slate-200 text-slate-700'}`}>
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
           <p>© {new Date().getFullYear()} Amged Sayed. All rights reserved.</p>
           <div className="flex items-center gap-6">
