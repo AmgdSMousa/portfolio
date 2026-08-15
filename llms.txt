@@ -1,21 +1,17 @@
-# Amged Sayed - Full-Stack Developer & Digital Marketer
-> Technical portfolio, projects, resume, and contact information.
+# Amged Sayed
 
-## Core Specializations
-- Full-Stack Web Development (React 19, Node.js, TypeScript, PostgreSQL)
-- Linux Cloud Infrastructure & VPS Systems (GCP, Docker, Reverse Tunnels)
-- Consumer Psychology & Data-Driven Marketing Strategy
+> Official developer portfolio of Amged Sayed — Full-Stack Web Developer, Cloud Infrastructure Specialist, and Digital Marketing Strategist based in Cairo, Egypt.
 
-## Key Live Projects
-- 3atlan Roadside Assistance: https://3atlan.am8ed.site
-- WA-Sender WhatsApp Dispatcher: https://wa-sender.am8ed.site
-- Fursat Safar Travel Platform: https://www.fursatsafar.com
+## Projects & Applications
 
-## Official Resume / CV
-- Download Resume PDF: https://am8ed.site/CV.pdf
+- [Main Portfolio](https://am8ed.site): Official portfolio website featuring technical case studies, skills, and interactive contact.
+- [Resume PDF](https://am8ed.site/CV.pdf): Official downloadable CV of Amged Sayed.
+- [3atlan Assistance Platform](https://3atlan.am8ed.site): Real-time roadside emergency assistance application built with React, Firebase, and Leaflet Maps.
+- [WA-Sender Dispatcher](https://wa-sender.am8ed.site): Automated WhatsApp bulk messaging tool engineered in React 19 and TypeScript.
+- [Fursat Safar Travel](https://www.fursatsafar.com): Travel platform frontend and REST API lead generation system.
 
-## Contact Information
-- Email: amgedsayed2001@gmail.com
-- GitHub: https://github.com/AmgdSMousa
-- LinkedIn: https://linkedin.com/in/amged-sayed
-- WhatsApp: https://wa.me/201019688320
+## Social & Developer Links
+
+- [GitHub Profile](https://github.com/AmgdSMousa): GitHub source repositories for projects and tools.
+- [LinkedIn Network](https://linkedin.com/in/amged-sayed): Professional LinkedIn profile and career timeline.
+- [Email Contact](mailto:amgedsayed2001@gmail.com): Direct email address for inquiries.
