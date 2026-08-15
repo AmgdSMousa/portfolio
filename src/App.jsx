@@ -94,6 +94,19 @@ function App() {
 
   const projects = [
     {
+      id: 'shamtours',
+      title: lang === 'en' ? 'Sham Tours Travel & Umrah Platform' : 'منصة شام تورز للسياحة ورحلات العمرة',
+      category: 'web',
+      description: lang === 'en'
+        ? 'Modern React 19 & TailwindCSS travel booking web application. Features custom trip planning, interactive Umrah package schedules, visa application forms, and floating WhatsApp client desk.'
+        : 'منصة ويب حديثة بـ React 19 و TailwindCSS لحجز الرحلات السياحية وبرامج العمرة، وتخصيص الجولات وحجز التأشيرات والتواصل المباشر عبر الواتساب.',
+      tags: ['React 19', 'TailwindCSS v4', 'Framer Motion', 'Trip Planner', 'Responsive UI'],
+      icon: <Globe className="w-6 h-6 text-cyan-400" />,
+      featured: true,
+      github: 'https://github.com/AmgdSMousa/shamtours',
+      link: 'https://shamtours.am8ed.site'
+    },
+    {
       id: '3atlan',
       title: lang === 'en' ? '3atlan Roadside Assistance Platform' : 'منصة عطلان لخدمات الإنقاذ والمساعدة على الطريق',
       category: 'web',
