@@ -290,6 +290,7 @@ function App() {
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="md:hidden p-2 rounded-xl text-gray-400 hover:text-white"
+              aria-label={lang === 'en' ? 'Toggle Navigation Menu' : 'فتح أو إغلاق القائمة الجانبية'}
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -311,6 +312,9 @@ function App() {
         )}
       </nav>
 
+      {/* Main Content Landmark */}
+      <main className="relative z-10">
+
       {/* Hero Section */}
       <section className="relative pt-36 pb-20 px-6 max-w-7xl mx-auto flex flex-col items-center text-center z-10">
         
@@ -319,11 +323,19 @@ function App() {
           <div className="absolute -inset-2 rounded-full bg-gradient-to-r from-blue-600 via-cyan-400 to-indigo-600 blur-lg opacity-75 group-hover:opacity-100 transition duration-500 group-hover:scale-105 animate-pulse" />
           <div className={`relative w-36 h-36 sm:w-44 sm:h-44 rounded-full p-1.5 border-2 border-cyan-400/50 shadow-2xl shadow-blue-500/30 ${darkMode ? 'bg-gray-950' : 'bg-white'}`}>
             <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-b from-blue-900/40 to-gray-900">
-              <img
-                src="/amged-sayed.png"
-                alt="Amged Sayed"
-                className="w-full h-full object-cover object-top transform group-hover:scale-105 transition duration-500 drop-shadow-md"
-              />
+              <picture>
+                <source srcSet="/amged-sayed-opt.webp" type="image/webp" />
+                <img
+                  src="/amged-sayed-opt.webp"
+                  alt="Amged Sayed - Full-Stack Web Developer & Digital Marketer"
+                  width="176"
+                  height="176"
+                  loading="eager"
+                  decoding="async"
+                  fetchPriority="high"
+                  className="w-full h-full object-cover object-top transform group-hover:scale-105 transition duration-500 drop-shadow-md"
+                />
+              </picture>
             </div>
           </div>
           {/* Status Online Dot */}
@@ -956,6 +968,7 @@ function App() {
 
         </div>
       </section>
+      </main>
 
       {/* Footer */}
       <footer className={`py-10 px-6 border-t z-10 relative text-sm ${darkMode ? 'border-gray-900 text-gray-500' : 'border-slate-200 text-slate-500'}`}>
